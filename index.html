@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>AURORA — Mars Lipstick Collection | Modern Minimalist Cosmetics</title>
+  <meta name="description" content="Explore the Aurora Mars lipstick collection: Cherry Red, Rosella, and Leading Lady. Architectural casing, weightless velvet pigment, and modern minimalist Swiss aesthetics.">
+  <meta name="theme-color" content="#FCE8E8">
+  
+  <!-- Premium Modern Typography: Plus Jakarta Sans & Space Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Reading Scroll Progress Bar -->
+  <div class="scroll-progress-container" aria-hidden="true">
+    <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+  </div>
+
+  <!-- =========================================================================
+       1. TOP ANNOUNCEMENT BAR
+       ========================================================================= -->
+  <div class="announcement-bar" role="region" aria-label="Announcement">
+    <div class="announcement-inner container">
+      <div class="announcement-text">
+        <span class="announcement-tag">VOL. I</span>
+        <span>MARS COLLECTION // STRICTLY ARCHIVAL RELEASE</span>
+        <span class="announcement-bullet" aria-hidden="true">•</span>
+        <span>COMPLIMENTARY TEMPERATURE-CONTROLLED COURIER</span>
+      </div>
+      <div class="announcement-meta">
+        <span>ZÜRICH / NYC / TOKYO</span>
+        <span class="announcement-bullet" aria-hidden="true">•</span>
+        <span>USD ($)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       2. CLEAN MODERN NAVIGATION BAR
+       ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <div class="header-inner">
+        
+        <!-- Desktop Nav -->
+        <nav class="nav-desktop" aria-label="Main Navigation">
+          <a href="#collection" class="nav-link active">The Edit</a>
+          <a href="#comparison" class="nav-link">Comparison</a>
+          <a href="#manifesto" class="nav-link">Manifesto</a>
+          <a href="#shades" class="nav-link">Shades</a>
+          <a href="#formulation" class="nav-link">Formulation</a>
+          <a href="#ritual" class="nav-link">Ritual</a>
+          <a href="#faq" class="nav-link">Dossier</a>
+        </nav>
+
+        <!-- Mobile Menu Hamburger Button (2-line minimal luxury toggle) -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+
+        <!-- Centered Luxury Brand Wordmark -->
+        <a href="#" class="brand-wordmark" aria-label="Aurora Home">
+          AURORA
+          <span class="brand-submark">MARS EDIT</span>
+        </a>
+
+        <!-- Header Actions: Minimal Currency & Bag Trigger -->
+        <div class="header-actions">
+          <span class="header-currency-tag" aria-hidden="true">ZÜRICH • USD</span>
+          <button class="bag-btn" id="bagBtn" aria-label="View Shopping Bag">
+            <svg class="bag-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="bag-btn-text">Bag</span>
+            <span class="bag-badge" id="bagBadge">0</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       3. MOBILE NAVIGATION DRAWER
+       ========================================================================= -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" aria-hidden="true"></div>
+  <div class="mobile-nav-drawer" id="mobileNavDrawer" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <div class="brand-wordmark" style="font-size: 1.35rem;">
+        AURORA
+        <span class="brand-submark">MARS EDIT</span>
+      </div>
+      <button class="btn btn-secondary btn-icon-only" id="mobileNavClose" aria-label="Close Navigation">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    
+    <nav class="mobile-nav-links" aria-label="Mobile Navigation Links">
+      <a href="#collection" class="mobile-nav-item">
+        <span>The Mars Edit</span>
+        <span class="mobile-nav-index">01</span>
+      </a>
+      <a href="#comparison" class="mobile-nav-item">
+        <span>Shade Compare</span>
+        <span class="mobile-nav-index">02</span>
+      </a>
+      <a href="#manifesto" class="mobile-nav-item">
+        <span>Manifesto</span>
+        <span class="mobile-nav-index">03</span>
+      </a>
+      <a href="#shades" class="mobile-nav-item">
+        <span>The Palette</span>
+        <span class="mobile-nav-index">04</span>
+      </a>
+      <a href="#formulation" class="mobile-nav-item">
+        <span>Formulation</span>
+        <span class="mobile-nav-index">05</span>
+      </a>
+      <a href="#ritual" class="mobile-nav-item">
+        <span>Ritual & Discipline</span>
+        <span class="mobile-nav-index">06</span>
+      </a>
+      <a href="#faq" class="mobile-nav-item">
+        <span>Formula Dossier & FAQ</span>
+        <span class="mobile-nav-index">07</span>
+      </a>
+    </nav>
+
+    <div class="mobile-nav-footer">
+      <div class="mobile-nav-meta">COLLECTION: MARS // 01</div>
+      <div class="mobile-nav-meta">ZÜRICH LABS — 47.3769° N, 8.5417° E</div>
+      <div class="mobile-nav-badge">VEGAN • CRUELTY-FREE • CLEAN CERTIFIED</div>
+    </div>
+  </div>
+
+  <main id="mainContent">
+
+    <!-- =======================================================================
+         4. HERO SECTION (MODERN ASYMMETRIC GRID)
+         ======================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Column: Typographic & Editorial Hierarchy -->
+          <div class="hero-content">
+            <div class="hero-meta-strip">
+              <span class="swiss-pill">
+                <span class="pill-dot"></span>
+                <span>VOL. I ARCHIVAL RELEASE</span>
+              </span>
+              <span class="meta-number">EDITION NO. 01 // 2026</span>
+            </div>
+
+            <div class="hero-headline-wrap">
+              <span class="hero-headline-tag">THE ARCHITECTURAL LIPSTICK</span>
+              <h1 class="editorial-title">MARS LIPSTICK</h1>
+              <p class="subheading">
+                Pure Chromatic Density Encased in Architectural Brutalism.
+              </p>
+            </div>
+
+            <p class="lead-p hero-p">
+              Formulated under strict Swiss cosmetic standards. Three uncompromising shades engineered with 98.4% optical pigment purity, weightless velvet drape, and zero feathering.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#collection" class="btn btn-primary" id="heroCtaExplore">
+                <span>Select Your Shade</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#comparison" class="btn btn-secondary">
+                <span>Compare 3 Shades</span>
+              </a>
+            </div>
+
+            <div class="hero-specs-grid">
+              <div class="hero-spec-item">
+                <span class="hero-spec-label">Pigment Density</span>
+                <span class="hero-spec-val">98.4% Pure</span>
+              </div>
+              <div class="hero-spec-item">
+                <span class="hero-spec-label">Lip Drape</span>
+                <span class="hero-spec-val">Weightless Velvet</span>
+              </div>
+              <div class="hero-spec-item">
+                <span class="hero-spec-label">Tested Wear</span>
+                <span class="hero-spec-val">12 Hours</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Sculptural Product Visual -->
+          <div class="hero-visual">
+            <div class="hero-visual-badge">SWISS FORMULATION</div>
+            <div class="hero-image-container">
+              <img 
+                src="assets/images/hero-mars.jpg" 
+                alt="Aurora Mars luxury architectural lipstick with matte maroon case and pure velvet crimson bullet" 
+                class="hero-image"
+                width="640" 
+                height="480"
+                loading="eager"
+              >
+            </div>
+            <div class="hero-visual-caption">
+              <span>FIG. 1.0 — SCULPTURAL CASING IN ANODIZED MAROON</span>
+              <span>48G SOLID WEIGHT</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         PRESS & EDITORIAL ACCOLADES STRIP
+         ======================================================================= -->
+    <div class="accolades-strip" aria-label="Editorial Reviews">
+      <div class="container">
+        <div class="accolades-grid">
+          <div class="accolade-item">
+            <span class="accolade-quote">“The most impeccably formulated velvet red of the decade.”</span>
+            <span class="accolade-source">VOGUE INTERNATIONAL</span>
+          </div>
+          <div class="accolade-item">
+            <span class="accolade-quote">“Pure Swiss architectural discipline meets poetic lip saturation.”</span>
+            <span class="accolade-source">WALLPAPER* DESIGN</span>
+          </div>
+          <div class="accolade-item">
+            <span class="accolade-quote">“A masterclass in non-drying, featherlight pigment density.”</span>
+            <span class="accolade-source">HARPER’S BAZAAR</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         5. MANIFESTO & PHILOSOPHY SECTION (SWISS SPREAD)
+         ======================================================================= -->
+    <section class="swiss-section manifesto-section" id="manifesto">
+      <div class="container">
+        <div class="section-header-bar">
+          <div>
+            <span class="swiss-label"><span class="swiss-index">[ 02 ]</span> DESIGN DOCTRINE</span>
+            <h2 class="section-title">The Philosophy</h2>
+          </div>
+          <span class="meta-number">AURORA AESTHETIC DIRECTIVE</span>
+        </div>
+
+        <blockquote class="manifesto-lead-quote">
+          “We reject cosmetic ornamentation. We compose pure, uncompromised chromatic intensity encased in ruthless architectural restraint.”
+        </blockquote>
+
+        <div class="manifesto-columns">
+          <div class="manifesto-col">
+            <div class="manifesto-col-header">
+              <span class="swiss-index">A.</span>
+              <h3 class="manifesto-col-title">Brutalist Precision</h3>
+            </div>
+            <p class="body-p">
+              Each lipstick case is milled from heavyweight anodized aluminum in our signature deep maroon hue `#641C32`, weighted to 48 grams for balanced tactile authority.
+            </p>
+          </div>
+
+          <div class="manifesto-col">
+            <div class="manifesto-col-header">
+              <span class="swiss-index">B.</span>
+              <h3 class="manifesto-col-title">Zero Microplastics</h3>
+            </div>
+            <p class="body-p">
+              Our formulation relies strictly on cold-pressed Japanese Camellia seed oil, natural Shorea robusta resin, and micronized mineral oxides. 100% biodegradable lip wear.
+            </p>
+          </div>
+
+          <div class="manifesto-col">
+            <div class="manifesto-col-header">
+              <span class="swiss-index">C.</span>
+              <h3 class="manifesto-col-title">Chromatic Permanence</h3>
+            </div>
+            <p class="body-p">
+              Single-stroke opacity calibrated against diverse skin undertones. The Mars spectrum yields rich saturation without tightening, cracking, or edge feathering.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. INTERACTIVE SHADE SELECTOR & MARS LAB (CORE COMPONENT)
+         ======================================================================= -->
+    <section class="swiss-section collection-section" id="collection">
+      <div class="container">
+        <div class="section-header-bar">
+          <div>
+            <span class="swiss-label"><span class="swiss-index">[ 03 ]</span> INTERACTIVE SHADE LAB</span>
+            <h2 class="section-title">Select Your Mars Shade</h2>
+          </div>
+          <span class="meta-number">3 CURATED FORMULATIONS</span>
+        </div>
+
+        <!-- The Interactive Studio Component -->
+        <div class="shade-experience-container">
+          
+          <!-- Left: High-Def Active Shade Display -->
+          <div class="shade-viewer-pane">
+            <div class="shade-zoom-badge" id="shadeZoomBadge">ACTIVE SPECIMEN // AUR-MRS-01</div>
+            <div class="shade-active-image-wrap">
+              <img 
+                id="activeShadeImg" 
+                src="assets/images/shade-cherry-red.jpg" 
+                alt="Aurora Mars Lipstick in Cherry Red" 
+                class="shade-active-img"
+                width="460"
+                height="460"
+              >
+            </div>
+            <div class="shade-swatch-preview-bar">
+              <span class="shade-swatch-indicator" id="swatchDotIndicator"></span>
+              <span class="shade-swatch-hex" id="swatchHexIndicator">HEX: #8B1223</span>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Controls & Specifications -->
+          <div class="shade-control-pane">
+            <div class="shade-header">
+              <div class="shade-code-row">
+                <span class="shade-code-tag" id="shadeCodeDisplay">CODE // AUR-MRS-01</span>
+                <span class="shade-finish-badge" id="shadeFinishBadge">Velvet Matte</span>
+              </div>
+              <h3 class="shade-name-display" id="shadeNameDisplay">Cherry Red</h3>
+              <div class="shade-price-row">
+                <span class="shade-price" id="shadePriceDisplay">$42.00</span>
+                <span class="shade-tax-note">Taxes & Swiss Courier Included</span>
+              </div>
+            </div>
+
+            <!-- Swatch Selector Buttons -->
+            <div class="swatch-selector-group">
+              <div class="swatch-selector-label">
+                <span>Select Formulation</span>
+                <span id="selectedUndertoneText">Undertone: Cool Crimson</span>
+              </div>
+              <div class="swatch-buttons-row" role="radiogroup" aria-label="Lipstick shades">
+                
+                <button 
+                  class="swatch-btn is-active" 
+                  data-shade-id="cherry-red"
+                  data-shade-name="Cherry Red"
+                  data-shade-code="AUR-MRS-01"
+                  data-shade-price="$42.00"
+                  data-shade-num="42"
+                  data-shade-finish="Velvet Matte"
+                  data-shade-undertone="Undertone: Cool Crimson"
+                  data-shade-desc="A commanding, classic deep crimson red engineered with high-density blue-red pigments for unmistakable chromatic presence."
+                  data-shade-img="assets/images/shade-cherry-red.jpg"
+                  data-shade-hex="#8B1223"
+                  data-shade-chroma="98.4%"
+                  data-shade-wear="12 Hours"
+                  role="radio"
+                  aria-checked="true"
+                >
+                  <span class="swatch-circle swatch-cherry" aria-hidden="true"></span>
+                  <span class="swatch-btn-name">Cherry Red</span>
+                  <span class="swatch-btn-tag">Matte</span>
+                </button>
+
+                <button 
+                  class="swatch-btn" 
+                  data-shade-id="rosella"
+                  data-shade-name="Rosella"
+                  data-shade-code="AUR-MRS-02"
+                  data-shade-price="$42.00"
+                  data-shade-num="42"
+                  data-shade-finish="Luminous Satin"
+                  data-shade-undertone="Undertone: Rose Coral Berry"
+                  data-shade-desc="A radiant, vibrant rose-coral berry imbued with warm coral undertones and micro-reflective botanical lipids for daylight radiance."
+                  data-shade-img="assets/images/shade-rosella.jpg"
+                  data-shade-hex="#C64A62"
+                  data-shade-chroma="96.8%"
+                  data-shade-wear="10 Hours"
+                  role="radio"
+                  aria-checked="false"
+                >
+                  <span class="swatch-circle swatch-rosella" aria-hidden="true"></span>
+                  <span class="swatch-btn-name">Rosella</span>
+                  <span class="swatch-btn-tag">Satin</span>
+                </button>
+
+                <button 
+                  class="swatch-btn" 
+                  data-shade-id="leading-lady"
+                  data-shade-name="Leading Lady"
+                  data-shade-code="AUR-MRS-03"
+                  data-shade-price="$42.00"
+                  data-shade-num="42"
+                  data-shade-finish="Velvet Matte"
+                  data-shade-undertone="Undertone: Deep Plum Wine"
+                  data-shade-desc="An alluring, iconic deep plum velvet berry. Formulated with saturated blackcurrant and violet undertones for theatrical depth."
+                  data-shade-img="assets/images/shade-leading-lady.jpg"
+                  data-shade-hex="#4A1222"
+                  data-shade-chroma="99.1%"
+                  data-shade-wear="14 Hours"
+                  role="radio"
+                  aria-checked="false"
+                >
+                  <span class="swatch-circle swatch-leading" aria-hidden="true"></span>
+                  <span class="swatch-btn-name">Leading Lady</span>
+                  <span class="swatch-btn-tag">Velvet</span>
+                </button>
+
+              </div>
+            </div>
+
+            <!-- Description -->
+            <p class="body-p" id="shadeDescDisplay" style="margin-bottom: var(--space-md);">
+              A commanding, classic deep crimson red engineered with high-density blue-red pigments for unmistakable chromatic presence.
+            </p>
+
+            <!-- Technical Spec Matrix -->
+            <div class="shade-profile-matrix">
+              <div class="shade-profile-row">
+                <span class="shade-profile-key">Pigment Index</span>
+                <span class="shade-profile-val" id="specChroma">98.4% Optical Purity</span>
+              </div>
+              <div class="shade-profile-row">
+                <span class="shade-profile-key">Finish Profile</span>
+                <span class="shade-profile-val" id="specFinish">Non-Drying Velvet Matte</span>
+              </div>
+              <div class="shade-profile-row">
+                <span class="shade-profile-key">Wear Endurance</span>
+                <span class="shade-profile-val" id="specWear">12 Hours Tested</span>
+              </div>
+              <div class="shade-profile-row">
+                <span class="shade-profile-key">Packaging</span>
+                <span class="shade-profile-val">Magnetic 48g Milled Maroon Tube</span>
+              </div>
+            </div>
+
+            <!-- Quantity & Bag Addition Actions -->
+            <div class="shade-action-group">
+              <div class="qty-control" aria-label="Quantity selector">
+                <button class="qty-btn" id="qtyMinus" aria-label="Decrease quantity">−</button>
+                <span class="qty-display" id="qtyVal">1</span>
+                <button class="qty-btn" id="qtyPlus" aria-label="Increase quantity">+</button>
+              </div>
+
+              <button class="btn btn-primary btn-add-bag" id="addToBagMain">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+                <span id="btnBagLabel">Add to Bag — $42.00</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         INTERACTIVE SHADE COMPARISON MATRIX
+         ======================================================================= -->
+    <section class="swiss-section comparison-section" id="comparison">
+      <div class="container">
+        <div class="section-header-bar">
+          <div>
+            <span class="swiss-label"><span class="swiss-index">[ 04 ]</span> ARCHITECTURAL COMPARISON</span>
+            <h2 class="section-title">The Three Mars Shades</h2>
+          </div>
+          <span class="meta-number">SIDE-BY-SIDE MATRIX</span>
+        </div>
+
+        <div class="comparison-table-wrapper">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th scope="col" class="comp-col-spec">SPECIFICATION</th>
+                <th scope="col" class="comp-col-shade">
+                  <span class="comp-header-swatch comp-cherry"></span>
+                  <strong>CHERRY RED</strong>
+                  <span class="comp-header-sub">AUR-MRS-01</span>
+                </th>
+                <th scope="col" class="comp-col-shade">
+                  <span class="comp-header-swatch comp-rosella"></span>
+                  <strong>ROSELLA</strong>
+                  <span class="comp-header-sub">AUR-MRS-02</span>
+                </th>
+                <th scope="col" class="comp-col-shade">
+                  <span class="comp-header-swatch comp-leading"></span>
+                  <strong>LEADING LADY</strong>
+                  <span class="comp-header-sub">AUR-MRS-03</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="comp-spec-title">Hue Profile</td>
+                <td>True Classic Crimson</td>
+                <td>Vibrant Rose Coral</td>
+                <td>Iconic Plum Wine</td>
+              </tr>
+              <tr>
+                <td class="comp-spec-title">Finish Category</td>
+                <td><span class="comp-badge">Velvet Matte</span></td>
+                <td><span class="comp-badge comp-badge-satin">Luminous Satin</span></td>
+                <td><span class="comp-badge">Velvet Matte</span></td>
+              </tr>
+              <tr>
+                <td class="comp-spec-title">Undertone</td>
+                <td>Cool Blue-Red</td>
+                <td>Warm Rose Berry</td>
+                <td>Deep Violet Berry</td>
+              </tr>
+              <tr>
+                <td class="comp-spec-title">Optical Purity</td>
+                <td>98.4% Chroma</td>
+                <td>96.8% Chroma</td>
+                <td>99.1% Chroma</td>
+              </tr>
+              <tr>
+                <td class="comp-spec-title">Wear Duration</td>
+                <td>12 Hours</td>
+                <td>10 Hours</td>
+                <td>14 Hours</td>
+              </tr>
+              <tr>
+                <td class="comp-spec-title">Best Recommended</td>
+                <td>Black-Tie & Statement Day</td>
+                <td>Daily Glow & Warm Sunlight</td>
+                <td>Nocturnal Allure & Drama</td>
+              </tr>
+              <tr>
+                <td class="comp-spec-title">Select</td>
+                <td>
+                  <button class="btn btn-secondary comp-select-btn" onclick="selectAndScrollToShade('cherry-red')">Select Cherry Red</button>
+                </td>
+                <td>
+                  <button class="btn btn-secondary comp-select-btn" onclick="selectAndScrollToShade('rosella')">Select Rosella</button>
+                </td>
+                <td>
+                  <button class="btn btn-secondary comp-select-btn" onclick="selectAndScrollToShade('leading-lady')">Select Leading Lady</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. THE 3 MARS SHADE CARDS (SWISS CATALOG GRID)
+         ======================================================================= -->
+    <section class="swiss-section" id="shades" style="background-color: var(--color-bg-warm);">
+      <div class="container">
+        <div class="section-header-bar">
+          <div>
+            <span class="swiss-label"><span class="swiss-index">[ 05 ]</span> INDIVIDUAL EDITIONS</span>
+            <h2 class="section-title">The Complete Mars Trilogy</h2>
+          </div>
+          <span class="meta-number">3 SHADES // ARCHITECTURAL SERIES</span>
+        </div>
+
+        <div class="cards-catalog-grid">
+          
+          <!-- Card 1: Cherry Red -->
+          <article class="product-card" data-card-shade="cherry-red">
+            <div class="product-card-visual">
+              <span class="product-card-tag">VOL. I — 01</span>
+              <img 
+                src="assets/images/shade-cherry-red.jpg" 
+                alt="Aurora Mars Lipstick - Cherry Red" 
+                class="product-card-img"
+                loading="lazy"
+                width="400"
+                height="400"
+              >
+            </div>
+            <div class="product-card-body">
+              <div class="product-card-meta">
+                <span>AUR-MRS-01</span>
+                <span>VELVET MATTE</span>
+              </div>
+              <h3 class="product-card-title">Cherry Red</h3>
+              <p class="product-card-desc">
+                The quintessential red redefined with intense mineral depth. Saturated, velvet-soft, and meticulously balanced to flatter every complexion.
+              </p>
+              <div class="product-card-swatch-row">
+                <span class="swatch-circle swatch-cherry" aria-hidden="true"></span>
+                <span>Hex #8B1223 • Blue-Red Undertone</span>
+              </div>
+              <div class="product-card-footer">
+                <span class="product-card-price">$42.00</span>
+                <button 
+                  class="btn btn-secondary quick-add-btn" 
+                  data-shade-id="cherry-red" 
+                  data-shade-name="Cherry Red" 
+                  data-shade-price="42" 
+                  data-shade-img="assets/images/shade-cherry-red.jpg"
+                >
+                  Quick Add +
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Rosella -->
+          <article class="product-card" data-card-shade="rosella">
+            <div class="product-card-visual">
+              <span class="product-card-tag">VOL. I — 02</span>
+              <img 
+                src="assets/images/shade-rosella.jpg" 
+                alt="Aurora Mars Lipstick - Rosella" 
+                class="product-card-img"
+                loading="lazy"
+                width="400"
+                height="400"
+              >
+            </div>
+            <div class="product-card-body">
+              <div class="product-card-meta">
+                <span>AUR-MRS-02</span>
+                <span>LUMINOUS SATIN</span>
+              </div>
+              <h3 class="product-card-title">Rosella</h3>
+              <p class="product-card-desc">
+                An ethereal rose-coral berry infused with light-diffusing botanical oils. Crisp, fresh, and effortlessly wearable from day to twilight.
+              </p>
+              <div class="product-card-swatch-row">
+                <span class="swatch-circle swatch-rosella" aria-hidden="true"></span>
+                <span>Hex #C64A62 • Rose Coral Berry</span>
+              </div>
+              <div class="product-card-footer">
+                <span class="product-card-price">$42.00</span>
+                <button 
+                  class="btn btn-secondary quick-add-btn" 
+                  data-shade-id="rosella" 
+                  data-shade-name="Rosella" 
+                  data-shade-price="42" 
+                  data-shade-img="assets/images/shade-rosella.jpg"
+                >
+                  Quick Add +
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Leading Lady -->
+          <article class="product-card" data-card-shade="leading-lady">
+            <div class="product-card-visual">
+              <span class="product-card-tag">VOL. I — 03</span>
+              <img 
+                src="assets/images/shade-leading-lady.jpg" 
+                alt="Aurora Mars Lipstick - Leading Lady" 
+                class="product-card-img"
+                loading="lazy"
+                width="400"
+                height="400"
+              >
+            </div>
+            <div class="product-card-body">
+              <div class="product-card-meta">
+                <span>AUR-MRS-03</span>
+                <span>VELVET MATTE</span>
+              </div>
+              <h3 class="product-card-title">Leading Lady</h3>
+              <p class="product-card-desc">
+                A theatrical, brooding plum wine berry created for profound evening allure. Rich, velvety, and deeply hypnotic under directional lighting.
+              </p>
+              <div class="product-card-swatch-row">
+                <span class="swatch-circle swatch-leading" aria-hidden="true"></span>
+                <span>Hex #4A1222 • Deep Plum Velvet</span>
+              </div>
+              <div class="product-card-footer">
+                <span class="product-card-price">$42.00</span>
+                <button 
+                  class="btn btn-secondary quick-add-btn" 
+                  data-shade-id="leading-lady" 
+                  data-shade-name="Leading Lady" 
+                  data-shade-price="42" 
+                  data-shade-img="assets/images/shade-leading-lady.jpg"
+                >
+                  Quick Add +
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. FORMULA & BOTANICAL SCIENCE SECTION (SWISS SPEC MATRIX)
+         ======================================================================= -->
+    <section class="swiss-section formula-section" id="formulation">
+      <div class="container">
+        <div class="section-header-bar">
+          <div>
+            <span class="swiss-label"><span class="swiss-index">[ 06 ]</span> BIO-ARCHITECTURAL LABS</span>
+            <h2 class="section-title">The Active Matrix</h2>
+          </div>
+          <span class="meta-number">FORMULATION PURITY: 100% CLEAN</span>
+        </div>
+
+        <div class="formula-matrix">
+          <div class="formula-cell">
+            <span class="formula-index">01 // LIPID VECTOR</span>
+            <h3 class="formula-title">Camellia Seed Oil</h3>
+            <span class="formula-origin">ORIGIN: SHIZUOKA, JAPAN</span>
+            <p class="formula-desc">
+              Cold-pressed oleic acid triglycerides that mirror human sebum, providing deep epidermal moisture and weightless glide without greasiness.
+            </p>
+          </div>
+
+          <div class="formula-cell">
+            <span class="formula-index">02 // CHROMATIC CORE</span>
+            <h3 class="formula-title">Micronized Minerals</h3>
+            <span class="formula-origin">SPEC: &lt; 0.2 MICRON PARTICLE</span>
+            <p class="formula-desc">
+              Triple-milled cosmetic iron oxides suspended in plant esters to deliver uninterrupted full-opacity colour payoff in a single swipe.
+            </p>
+          </div>
+
+          <div class="formula-cell">
+            <span class="formula-index">03 // FILM NETWORK</span>
+            <h3 class="formula-title">Shorea Resin</h3>
+            <span class="formula-origin">ORIGIN: SUSTAINABLE FORESTRY</span>
+            <p class="formula-desc">
+              A high-melting natural resin that forms a flexible breathable lattice on lips, securing the pigment against migration and dry-out.
+            </p>
+          </div>
+
+          <div class="formula-cell">
+            <span class="formula-index">04 // HYDRATION SPHERES</span>
+            <h3 class="formula-title">Sodium Hyaluronate</h3>
+            <span class="formula-origin">BIO-FERMENTED DERIVATIVE</span>
+            <p class="formula-desc">
+              Dehydrated cross-linked hyaluronic spheres that swell upon contact with lip moisture, physically plumping fine lines for continuous comfort.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         9. APPLICATION RITUAL & EDITORIAL CAMPAIGN
+         ======================================================================= -->
+    <section class="swiss-section editorial-section" id="ritual">
+      <div class="container">
+        <div class="section-header-bar">
+          <div>
+            <span class="swiss-label"><span class="swiss-index">[ 07 ]</span> THE MARS APPLICATION</span>
+            <h2 class="section-title">Ritual & Discipline</h2>
+          </div>
+          <span class="meta-number">CAMPAIGN // VOL. I</span>
+        </div>
+
+        <div class="editorial-layout">
+          <!-- Editorial Model Photography -->
+          <div class="editorial-image-frame">
+            <img 
+              src="assets/images/editorial-model.jpg" 
+              alt="Model wearing Aurora Mars Cherry Red lipstick in Swiss architectural portrait" 
+              class="editorial-img"
+              loading="lazy"
+              width="600"
+              height="750"
+            >
+            <div class="editorial-caption-tag">
+              <span>PLATE 04 — EDITORIAL STUDY</span>
+              <span>MARS CHERRY RED ON BARE COMPLEXION</span>
+            </div>
+          </div>
+
+          <!-- Ritual Steps -->
+          <div class="ritual-steps-list">
+            <div class="ritual-step-item">
+              <div class="ritual-step-head">
+                <span class="ritual-step-num">01.</span>
+                <h3 class="ritual-step-name">The Defined Contour</h3>
+              </div>
+              <p class="ritual-step-desc">
+                Use the chisel-cut architectural edge of the Mars bullet to outline the Cupid's bow and lower vermilion border. The formula grips immediately with zero smudging.
+              </p>
+            </div>
+
+            <div class="ritual-step-item">
+              <div class="ritual-step-head">
+                <span class="ritual-step-num">02.</span>
+                <h3 class="ritual-step-name">Single-Stroke Saturation</h3>
+              </div>
+              <p class="ritual-step-desc">
+                Sweep the teardrop bullet across center lips outward. One stroke lays down 98% pure chromatic opacity. No multiple layering required.
+              </p>
+            </div>
+
+            <div class="ritual-step-item">
+              <div class="ritual-step-head">
+                <span class="ritual-step-num">03.</span>
+                <h3 class="ritual-step-name">Thermal Blot & Set</h3>
+              </div>
+              <p class="ritual-step-desc">
+                Gently press lips together to activate body-temperature micro-waxes. Blot once with tissue for an immovable velvet matte archival finish.
+              </p>
+            </div>
+
+            <div style="padding-top: var(--space-md);">
+              <a href="#collection" class="btn btn-accent" style="width: 100%;">
+                <span>Experience The Mars Collection</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         ACCORDION FAQ & LAB DOSSIER
+         ======================================================================= -->
+    <section class="swiss-section faq-section" id="faq">
+      <div class="container">
+        <div class="section-header-bar">
+          <div>
+            <span class="swiss-label"><span class="swiss-index">[ 08 ]</span> CLINICAL SPECIFICATIONS</span>
+            <h2 class="section-title">Dossier & Inquiries</h2>
+          </div>
+          <span class="meta-number">ZÜRICH LAB AUDIT</span>
+        </div>
+
+        <div class="faq-accordion-list">
+          
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What distinguishes the Mars formulation from conventional matte lipsticks?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="body-p">
+                Traditional matte lipsticks rely on heavy clay binders and drying powders that sap moisture from the vermilion zone. The Aurora Mars lipstick utilizes a bio-compatible lipid vector of cold-pressed Japanese Camellia seed oil and bio-fermented hyaluronic spheres that continuously hydrate lips for up to 12 hours while maintaining a dead-matte optical finish.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Are all three Mars shades 100% vegan and cruelty-free certified?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="body-p">
+                Yes. Aurora operates under strict Swiss and EU cosmetic standards. No carmine (crushed cochineal insects) is used in our red pigments; our deep crimson reds and plum berries are achieved exclusively using triple-milled synthetic and mineral oxides. Zero animal testing is performed at any phase.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How does complimentary temperature-controlled courier shipping work?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="body-p">
+                To guarantee bullet integrity and prevent thermal melting during transit, every Mars order is packed in insulated recyclable thermal sleeves maintained between 16°C and 20°C from our Zürich laboratory to your door. All international shipments include priority customs clearance.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What is the casing composition and magnetic closure specification?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="body-p">
+                The casing is CNC-machined from single-billet aerospace-grade aluminum, electro-anodized in Aurora Maroon `#641C32`. A calibrated neodymium magnetic lock ensures the cap closes with a satisfying, authoritative snap rated for over 10,000 cycles.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       10. NEWSLETTER & ARCHIVAL DISPATCH
+       ========================================================================= -->
+  <section class="newsletter-bar" aria-labelledby="newsletterHeading">
+    <div class="container">
+      <div class="newsletter-grid">
+        <div>
+          <span class="swiss-label" style="color: var(--color-accent); margin-bottom: 8px;">
+            <span class="swiss-index">[ 09 ]</span> DISPATCH REGISTRATION
+          </span>
+          <h2 class="newsletter-title" id="newsletterHeading">The Aurora Gazette</h2>
+          <p class="body-p" style="color: rgba(252, 232, 232, 0.85);">
+            Subscribe to archival release notices, behind-the-scenes formulation dossiers, and private invitations.
+          </p>
+        </div>
+
+        <form class="newsletter-form" id="newsletterForm" novalidate>
+          <input 
+            type="email" 
+            id="newsletterEmail" 
+            class="newsletter-input" 
+            placeholder="ENTER YOUR WORK EMAIL" 
+            required 
+            aria-label="Email address"
+          >
+          <button type="submit" class="btn btn-accent">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. SWISS TYPOGRAPHIC FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div>
+          <h3 class="footer-brand-title">AURORA</h3>
+          <p class="footer-brand-desc">
+            Architectural cosmetics engineered between Zürich and Tokyo. Strictly vegan, cruelty-free, and formulated under uncompromising aesthetic discipline.
+          </p>
+          <div style="margin-top: 18px; font-family: var(--font-mono); font-size: 0.72rem; opacity: 0.75;">
+            AURORA BEAUTY LABS AG // SWITZERLAND
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Collection</h4>
+          <ul class="footer-links-list">
+            <li><a href="#collection" class="footer-link">Cherry Red</a></li>
+            <li><a href="#collection" class="footer-link">Rosella</a></li>
+            <li><a href="#collection" class="footer-link">Leading Lady</a></li>
+            <li><a href="#comparison" class="footer-link">Shade Comparison</a></li>
+            <li><a href="#formulation" class="footer-link">Formula Matrix</a></li>
+            <li><a href="#ritual" class="footer-link">Application Ritual</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Standards</h4>
+          <ul class="footer-links-list">
+            <li><a href="#" class="footer-link">Clinical Testing</a></li>
+            <li><a href="#" class="footer-link">Clean Ingredients</a></li>
+            <li><a href="#" class="footer-link">Sustainable Metals</a></li>
+            <li><a href="#" class="footer-link">Carbon Neutral Transit</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Client Desk</h4>
+          <ul class="footer-links-list">
+            <li><a href="#" class="footer-link">Order Status</a></li>
+            <li><a href="#" class="footer-link">Complimentary Courier</a></li>
+            <li><a href="#" class="footer-link">Returns Policy</a></li>
+            <li><a href="#" class="footer-link">Archival Inquiries</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span>© 2026 AURORA COSMETICS. ALL RIGHTS RESERVED. SWISS INTERNATIONAL DESIGN.</span>
+        <span>LAT: 47.3769° N // LONG: 8.5417° E</span>
+        <span>COLOR ARCHITECTURE: 60% #FCE8E8 • 30% #641C32 • 10% #F6C6D0</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       12. CART / BAG SLIDE-OVER DRAWER
+       ========================================================================= -->
+  <div class="bag-overlay" id="bagOverlay" aria-hidden="true"></div>
+  <aside class="bag-drawer" id="bagDrawer" aria-label="Shopping Bag Drawer" aria-hidden="true">
+    <div class="bag-drawer-header">
+      <div class="bag-drawer-title">
+        <span>Your Bag</span>
+        <span class="meta-number" id="bagDrawerCount" style="margin-left: 8px;">(0)</span>
+      </div>
+      <button class="bag-close-btn" id="bagCloseBtn" aria-label="Close Shopping Bag">×</button>
+    </div>
+
+    <div class="bag-items-list" id="bagItemsList">
+      <div class="bag-empty-notice" id="bagEmptyNotice">
+        Your bag is currently empty.<br><br>
+        <a href="#collection" class="btn btn-secondary" style="margin-top: 12px;" id="emptyCartExploreBtn" onclick="closeBagDrawer()">Discover The Mars Shades</a>
+      </div>
+    </div>
+
+    <div class="bag-drawer-footer" id="bagDrawerFooter">
+      <div class="bag-summary-row">
+        <span>Temperature-Controlled Courier</span>
+        <span style="font-weight: 700; color: var(--color-secondary);">COMPLIMENTARY</span>
+      </div>
+      <div class="bag-shipping-bar">
+        <div class="bag-shipping-fill"></div>
+      </div>
+      <div class="bag-total-row">
+        <span>Subtotal</span>
+        <span id="bagSubtotal">$0.00</span>
+      </div>
+      <button class="btn btn-primary" id="checkoutBtn" style="width: 100%; margin-top: 8px;">
+        <span>Proceed to Checkout</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </button>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       13. MOBILE STICKY ACTION BAR (Narrow Viewports)
+       ========================================================================= -->
+  <div class="mobile-sticky-action" id="mobileStickyAction">
+    <div class="mobile-sticky-info">
+      <span class="mobile-sticky-swatch" id="mobileStickySwatch"></span>
+      <div>
+        <div class="mobile-sticky-label">SELECTED SHADE</div>
+        <div class="mobile-sticky-name" id="mobileStickyShadeName">Cherry Red</div>
+      </div>
+    </div>
+    <button class="btn btn-primary" id="mobileStickyAddBtn">
+      <span>Add — $42</span>
+    </button>
+  </div>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top-btn" id="backToTopBtn" aria-label="Scroll back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- =========================================================================
+       14. TOAST NOTIFICATION CONTAINER
+       ========================================================================= -->
+  <div class="toast-notice" id="toastNotice" role="status" aria-live="polite">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toastMessage">Item added to bag</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
